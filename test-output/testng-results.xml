@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-30T10:40:03 IST" name="Suite" finished-at="2022-12-30T10:40:28 IST" duration-ms="24925">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MyRunner@2e8c1c9b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-12-30T10:40:03 IST" name="Test" finished-at="2022-12-30T10:40:28 IST" duration-ms="24925">
+      <class name="runner.MyRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.MyRunner@2e8c1c9b]" started-at="2022-12-30T10:40:03 IST" name="setUpClass" finished-at="2022-12-30T10:40:04 IST" duration-ms="640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@611b35d6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MyRunner@2e8c1c9b]" started-at="2022-12-30T10:40:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-30T10:40:13 IST" duration-ms="8579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC1_Verify Successful Login with Valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MyRunner@2e8c1c9b]" started-at="2022-12-30T10:40:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-30T10:40:19 IST" duration-ms="5798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC1_Verify Login with Invalid Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MyRunner@2e8c1c9b]" started-at="2022-12-30T10:40:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-30T10:40:28 IST" duration-ms="9827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC1_Verify Successful Appointment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Make Appointment"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.MyRunner@2e8c1c9b]" started-at="2022-12-30T10:40:28 IST" name="tearDownClass" finished-at="2022-12-30T10:40:28 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.MyRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
