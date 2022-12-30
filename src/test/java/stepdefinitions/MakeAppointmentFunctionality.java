@@ -18,6 +18,7 @@ import io.cucumber.java.en.When;
 
 public class MakeAppointmentFunctionality {
 
+	//Make Appointment functionality
 	public WebDriver driver = null;
 	public Properties prop = null;
 
